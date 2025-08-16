@@ -1,0 +1,109 @@
+
+
+# 🚀 Guia para Criar o Site **Corsinha Store** (Hospedado no GitHub Pages)
+
+Este guia vai te mostrar **passo a passo** como montar o site Corsinha Store, parecido com o GGMax, mas simples e leve para rodar no **GitHub Pages** (gratuito).
+
+---
+
+## ✅ 1. Estrutura do Projeto
+
+Crie uma pasta chamada `corsinha-store` com estes arquivos:
+
+* `index.html` → página inicial (home).
+* `produtos.html` → catálogo completo.
+* `style.css` → estilos do site.
+* `script.js` → funções e lógica.
+* `produtos.json` → lista dos produtos.
+* Pasta `/assets` → imagens, ícones e logo.
+
+---
+
+## ✅ 2. Páginas Essenciais
+
+1. **Home (index.html)**
+
+   * Banner com logo Corsinha Store.
+   * Produtos em destaque.
+   * Botão “Ver Catálogo”.
+
+2. **Catálogo (produtos.html)**
+
+   * Lista de todos os produtos.
+   * Filtros básicos (categoria, preço).
+   * Botões “Comprar”.
+
+3. **Sobre nós**
+
+   * Pequeno texto sobre a Corsinha Store.
+   * Missão, visão e valores.
+
+4. **Contato**
+
+   * Link para WhatsApp.
+   * Links para redes sociais.
+
+---
+
+## ✅ 3. Organização dos Produtos
+
+* Criar um arquivo `produtos.json` com nome, descrição, preço e imagem de cada item.
+* O `script.js` vai carregar os produtos automaticamente do JSON para a página.
+* Assim, quando quiser adicionar produto novo, só edita o JSON, sem mexer no HTML.
+
+---
+
+## ✅ 4. Visual e Design
+
+* **Paleta de cores**: fundo escuro (preto ou cinza), cor de destaque (roxo, verde ou azul).
+* **Fontes**: usar Google Fonts (Poppins ou Inter).
+* **Layout dos produtos**: cada item aparece em um “cartão” com:
+
+  * Imagem
+  * Nome
+  * Descrição
+  * Preço
+  * Botão de compra
+
+---
+
+## ✅ 5. Funcionalidades do Site
+
+* **Exibição dinâmica de produtos**: feita com JavaScript lendo o `produtos.json`.
+* **Carrinho (opcional)**: pode ser salvo no `localStorage` do navegador.
+* **Botão Comprar**: redireciona para um link de pagamento (Pix ou Mercado Pago).
+
+---
+
+## ✅ 6. Publicação no GitHub Pages
+
+1. Criar um repositório chamado `corsinha-store` no GitHub.
+2. Enviar todos os arquivos para esse repositório.
+3. No GitHub, vá em: **Settings → Pages**.
+4. Escolher a branch principal (`main` ou `master`).
+5. Pronto! O site vai aparecer em:
+
+   ```
+   https://corsinhastore.shop 
+   ```
+
+---
+
+## ✅ 7. Profissionalização
+
+* Comprar um domínio: `corsinhastore.com.br`.
+* Apontar o domínio para o GitHub Pages.
+* Adicionar **Google Analytics** para medir acessos.
+* Usar **meta tags** no HTML (SEO → título, descrição, keywords).
+* Otimizar imagens (usar `.webp` para carregar mais rápido).
+
+---
+
+## 🔑 Resumindo:
+
+* **Front-end**: HTML, CSS, JS.
+* **Produtos**: controlados por um arquivo JSON.
+* **Hospedagem**: GitHub Pages (gratuito).
+* **Pagamentos**: links externos (Pix, Mercado Pago).
+* **Escalabilidade**: dá pra começar simples e ir melhorando com o tempo.
+
